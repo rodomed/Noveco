@@ -1,0 +1,716 @@
+header.navbar-fixed-top {
+	background-color: #82cbf4;
+	padding: 5px 0;
+	margin: 0;
+	border: none;
+}
+
+.navbar-default .navbar-collapse {
+	border: none; 
+}
+
+
+header .navbar-brand {
+	padding: 0;
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+
+body {
+	color: white;
+	font-family: Roboto-Light;
+}
+
+
+/*header*/
+.navbar-default .navbar-nav > li > a {
+	color: black;
+	font-size: 16px;
+	font-weight: bold; 
+	text-align: center;
+}
+
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li.open > a:visited {
+	color: white;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color: inherit;
+}
+
+header #call {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 6px 0px 5px 30px;
+	margin: 8px 0px 0px 0px;
+	width: 160px;
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	font-size: 12px;
+	cursor: pointer;
+}
+ 
+ /*.logo-main*/
+
+.logo-main {
+	height: 590px;
+	margin-top: 60px;
+	padding-top: 90px;
+	background-image: url(../images/logo-main-bcgr.jpg);
+	background-position: 50%;
+}
+
+.border {
+	box-sizing: border-box;
+	width: 730px;
+	height: 274px;
+	border: 15px solid #82cbf4;
+	font-size: 30px;
+	margin-bottom: 40px;
+}
+
+.border img {
+	margin: 22px 0px 14px 0px;
+}
+
+.order {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 220px;
+	height: 40px;
+	font-size: 16px;
+	line-height: 40px;
+	background-color: #3faaf2;
+}
+
+	/*.weAre*/
+
+.weAre {
+	position: relative;
+	height: 444px; 
+}
+
+.weAre-img-left {
+	background-image: url(../images/weAre-bcgr-left.jpg);
+	background-position: 100%;
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	left: 0px;
+}
+
+.weAre-img-right {
+	background-image: url(../images/weAre-bcgr-right.jpg);
+	background-position: 100%;
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	right: 0px;
+}
+
+.weAre_text {
+	font-size: 18px;
+	margin: 0px 40px 0px 0px;
+	padding: 50px 0px 0px 0px;
+}
+
+.weAre_text p:first-child {
+	font-size: 38px;
+   margin: 0px 0px 15px 0px;
+   border-bottom: 3px solid black;
+   padding-bottom: 5px;
+}
+
+.weAre:hover .color {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+	height: 444px;
+	background-color: #313140;
+	opacity: 0.5; 
+}
+
+.weAre:hover .weAre_text p:first-child {
+   border-bottom: 3px solid #82cbf4;
+}
+
+	/*vision*/
+
+.vision {
+	position: relative;
+	height: 444px;
+}
+
+.vision-img-left {
+	background-image: url(../images/vision-bcgr-left.jpg);
+	background-position: 100%;
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	left: 0px;
+}
+
+.vision-img-right {
+	background-image: url(../images/vision-bcgr-right.jpg);
+	background-position: 100%;
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	right: 0px;
+}
+
+.vision_text {
+	font-size: 18px;
+	margin: 60px 0px 0px 40px;
+}
+
+.vision_text p:first-child {
+	font-size: 38px;
+   margin: 0px 0px 15px 0px;
+   border-bottom: 3px solid black;
+   padding-bottom: 5px;
+}
+
+.vision:hover .color {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 50%;
+	height: 444px;
+	background-color: #313140;
+	opacity: 0.5;
+} 
+
+.vision:hover .vision_text p:first-child {
+	font-size: 38px;
+   margin: 0px 0px 15px 0px;
+   border-bottom: 3px solid #82cbf4;
+   padding-bottom: 5px;
+}
+
+         /*pharm*/
+
+.pharm {
+	position: relative;
+	height: 444px;
+}
+
+.pharm-img-left {
+	background-image: url(../images/pharm-bcgr-left.jpg);
+	background-position: 100%;
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	left: 0px;
+}
+
+.pharm-img-right {
+	background-image: url(../images/pharm-bcgr-right.jpg);
+	background-position: 100%;
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	right: 0px;
+}
+
+.pharm_text {
+	font-size: 18px;
+	margin: 60px 40px 0px 0px;
+}
+
+.pharm_text p:first-child {
+	font-size: 38px;
+   margin: 0px 0px 15px 0px;
+   border-bottom: 3px solid black;
+   padding-bottom: 5px;
+}
+
+.pharm:hover .color {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+	height: 444px;
+	background-color: #313140;
+	opacity: 0.5;
+} 
+
+.pharm:hover .pharm_text p:first-child {
+   border-bottom: 3px solid #82cbf4;
+}
+
+	/*.commod*/
+
+.commod {
+	position: relative;
+	height: 444px; 
+}
+
+.commod-img-left {
+	background-image: url(../images/commod-bcgr-left.jpg);
+	background-position: 100%;
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	left: 0px;
+}
+
+.commod-img-right {
+	background-image: url(../images/commod-bcgr-right.jpg);
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	right: 0px;
+}
+
+.commod_text {
+	font-size: 18px;
+	margin: 50px 0px 0px 40px;
+}
+
+.commod_text p:first-child {
+	font-size: 38px;
+   margin: 0px 0px 15px 0px;
+   border-bottom: 3px solid black;
+   padding-bottom: 5px;
+}
+
+.commod:hover .color {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 50%;
+	height: 444px;
+	background-color: #313140;
+	opacity: 0.5; 
+}
+
+.commod:hover .commod_text p:first-child {
+   border-bottom: 3px solid #82cbf4;
+}
+
+		/*advisor*/
+
+.advisor {
+	position: relative;
+	height: 444px;
+}
+
+.advisor-img-left {
+	background-image: url(../images/advisor-bcgr-left.jpg);
+	background-position: 100%;
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	left: 0px;
+}
+
+.advisor-img-right {
+	background-image: url(../images/advisor-bcgr-right.jpg);
+	width: 50%;
+	height: 444px;
+	position: absolute;
+	right: 0px;
+}
+
+.advisor_text {
+	font-size: 18px;
+	margin: 60px 40px 0px 0px;
+}
+
+.advisor_text p:first-child {
+	font-size: 38px;
+   margin: 0px 0px 15px 0px;
+   border-bottom: 3px solid black;
+   padding-bottom: 5px;
+}
+
+.advisor:hover .color {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+	height: 444px;
+	background-color: #313140;
+	opacity: 0.5;
+} 
+
+.advisor:hover .advisor_text p:first-child {
+   border-bottom: 3px solid #82cbf4;
+}
+
+/* footer */
+footer {
+	background-color: #313140;
+	margin: 0px 0px 0px 0px;
+	padding: 30px 0px 20px 0px;
+}
+
+footer .insert {
+	margin-top: 10px;
+}
+
+footer .insert{
+	font-weight: normal;
+}
+
+footer .insert,
+footer a,
+footer a:hover {
+	color: white;
+}
+
+footer .list-inline > li {
+	margin: 0px 32px 0px 34px;
+	padding: 0px 0px 0px 0px;
+	color: #39abf7;
+	font-weight: bold;
+	font-size: 17px;
+}
+
+/*--xs--*/
+
+@media screen and (max-width: 767px) and (min-width: 455px) {
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: black;
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.border {
+		box-sizing: content-box;
+		margin: -18px auto 0px;
+		width: 90%;
+		height: 50%;
+		border: 12px solid #82cbf4;
+		font-size: 30px;
+	}
+
+	.border p {
+		margin-bottom: 0;
+	}
+
+	.row {
+		position: relative;
+	}
+
+	.weAre_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    	padding: 20px 44px 0px 44px;
+     	height: 400px;
+	}
+
+ 	.weAre-img-up {
+ 		position: absolute;
+ 		background-image: url(../images/weAre-bcgr-left.jpg);
+ 		top: 0px;
+ 		left: 0px;
+ 		width: 100%;
+ 		height: 400px;
+	}
+
+	.weAre-img-low {
+		background-image: url(../images/weAre-bcgr-right.jpg);
+		background-position: 100%;
+		height: 400px;
+	}
+
+	.vision-img-up {
+		position: absolute;
+		background-image: url(../images/vision-bcgr-right.jpg);
+		left:0px;
+		top: 0px;
+		background-position: 100%;
+		width: 100%;
+		height: 400px;
+	}
+
+	.vision_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    	padding: 40px 48px 0px 48px;
+     	height: 400px;
+	}
+
+	.vision-img-low {
+		background-image: url(../images/vision-bcgr-left.jpg);
+		background-position: 100%;
+		height: 400px;
+	}
+
+	.pharm_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    	padding: 40px 48px 0px 48px;
+     	height: 400px;
+	}	
+
+	.pharm-img-up {
+		position: absolute;
+		background-image: url(../images/pharm-bcgr-left.jpg);
+		left:0px;
+		top: 0px;
+		background-position: 100%;
+		width: 100%;
+		height: 400px;
+	}
+
+	.pharm-img-low {
+		background-image: url(../images/pharm-bcgr-right.jpg);
+		left:0px;
+		top: 0px;
+		background-position: 100%;
+		width: 100%;
+		height: 400px;
+	}
+
+	.commod_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    	padding: 40px 48px 0px 48px;
+     	height: 400px;
+	}
+
+
+	.commod-img-up {
+		position: absolute;
+		background-image: url(../images/commod-bcgr-right.jpg);
+		left:0px;
+		top: 0px;
+		width: 100%;
+		height: 400px;
+	}
+
+	.commod-img-low {
+		background-image: url(../images/commod-bcgr-left.jpg);
+		background-position: 100%;
+		height: 400px;
+	}
+
+	.advisor_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    	padding: 40px 48px 0px 48px;
+     	height: 400px;
+	}
+
+
+	.advisor-img-low {
+		background-image: url(../images/advisor-bcgr-right.jpg);
+		left:0px;
+		top: 0px;
+		background-position: 20%;
+		width: 100%;
+		height: 400px;
+	}
+
+	.advisor-img-up {
+		position: absolute;
+		background-image: url(../images/advisor-bcgr-left.jpg);
+		left:0px;
+		top: 0px;
+		width: 100%;
+		height: 400px;
+	}
+
+	footer .col-xs-12:first-child {
+		text-align: center;
+		margin: 30px 0px 40px 0px;
+	}
+
+	footer .list-inline > li {
+   	margin: 0px 40px 40px 0px;
+	}
+
+}
+
+/*--sm--*/
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+	div.navbar-brand > img {
+		margin: 2px 0px 0px 252px;
+	}
+	
+	ul.navbar-nav > li.open > ul.dropdown-menu {
+		margin: 4px 0px 0px 0px;
+		background-color: black;
+		left: 10px; 
+	}
+
+	.dropdown-menu > li > a {
+	 padding: 10px 20px;
+	 color: white;
+	 font-size: 16px;
+}
+
+	.dropdown-menu > li > a:hover {
+	 color: #82cbf4 ;
+	 background-color: inherit;
+}
+
+	header ul.nav {
+	padding: 0px 0px 0px 0px;
+	margin: 4px 0px 0px -40px;
+	}
+
+	header ul.nav > li {
+		margin: 0px 0px 0px 18px;
+		padding: 0px 0px 0px 0px; 
+	}
+
+	header #call {
+		margin: 12px 0px 0px 0px;
+		padding: 6px 22px 6px 32px;
+	}
+
+	.border {
+		margin-top: 16px;
+	}
+
+	.weAre_text {
+	
+	/*margin: 0px 40px 0px 0px;*/
+	padding: 18px 0px 0px 0px;
+}
+
+	.advisor-img-left {
+		background-image: url(../images/advisor-bcgr-left.jpg);
+		background-position: 60%;
+		width: 50%;
+		height: 444px;
+		position: absolute;
+		left: 0px;
+	}
+
+	.advisor-img-right {
+		background-image: url(../images/advisor-bcgr-right.jpg);
+		background-position: 28%;
+		width: 50%;
+		height: 444px;
+		position: absolute;
+		right: 0px;
+	}
+
+	footer .col-xs-12:first-child {
+		text-align: center;
+		margin-bottom: 40px;
+	}
+
+	footer .list-inline > li {
+   	margin: 0px 38px 0px 18px;
+	}
+
+} 
+
+
+/* -md- */
+
+@media screen and (min-width: 992px)  and (max-width: 1199px){
+
+	div.navbar-brand > img {
+		margin: 0;
+	}
+
+	header ul.nav {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px -50px; 
+	}
+
+	header ul.nav > li {
+		margin: 0; 
+	}
+
+	header #call {
+		margin: 8px 0px 0px -14px;
+	 padding: 6px 0px 6px 32px;
+	}
+	
+	ul.navbar-nav > li.open > ul.dropdown-menu {
+		margin: 4px 0px 0px 0px;
+		background-color: black;
+		left: 10px; 
+	}
+
+	.dropdown-menu > li > a {
+		padding: 10px 20px;
+		color: white;
+		font-size: 16px;
+	}
+
+	.dropdown-menu > li > a:hover {
+		color: #82cbf4 ;
+		background-color: inherit;
+	}
+
+	.advisor-img-left {
+		background-image: url(../images/advisor-bcgr-left.jpg);
+		background-position: 50%;
+		width: 50%;
+		height: 444px;
+		position: absolute;
+		left: 0px;
+	}
+
+	.advisor-img-right {
+		background-image: url(../images/advisor-bcgr-right.jpg);
+		background-position: 30%;
+		width: 50%;
+		height: 444px;
+		position: absolute;
+		right: 0px;
+	}
+
+	footer .list-inline > li {
+   	margin: 0px -30px 0px 50px;
+   }
+
+} 
+
+/*-lg-*/
+
+@media screen and (min-width: 1200px) {
+	header ul.nav {
+		padding: 0px 0px 0px 0px;
+		margin: 0px 0px 0px -30px;  
+	}
+
+	header ul.nav > li {
+		margin: 0px 0px 0px 40px; 
+	}
+
+	ul.navbar-nav > li.open > ul.dropdown-menu {
+		margin: 4px 0px 0px 0px;
+		background-color: black;
+		left: 10px; 
+	}
+
+	.dropdown-menu > li > a {
+		padding: 10px 20px;
+		color: white;
+		font-size: 16px;
+	}
+
+	.dropdown-menu > li > a:hover {
+		color: #82cbf4 ;
+		background-color: inherit;
+	}
+
+	header #call {
+		margin: 8px 0px 0px 44px;
+		padding: 6px 0px 6px 30px;
+	}
+}
+
+	
