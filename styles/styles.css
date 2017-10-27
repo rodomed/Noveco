@@ -369,8 +369,15 @@ footer a:hover {
 	color: white;
 }
 
+footer .ul_1 {
+	/*margin-left: 8px; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
 footer .list-inline > li {
-	margin: 0px 32px 0px 34px;
+	margin: 0px 0px 0px 15px;
 	padding: 0px 0px 0px 0px;
 	color: #39abf7;
 	font-weight: bold;
@@ -379,7 +386,7 @@ footer .list-inline > li {
 
 /*--xs--*/
 
-@media screen and (max-width: 767px) and (min-width: 455px) {
+@media screen and (min-width: 455px) and (max-width: 767px) {  
 
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		color: black;
@@ -439,8 +446,8 @@ footer .list-inline > li {
 	.vision_text {
 		position: relative;
 		margin: 0px 0px 0px 0px;
-    	padding: 40px 48px 0px 48px;
-     	height: 400px;
+    padding: 40px 48px 0px 48px;
+    height: 400px;
 	}
 
 	.vision-img-low {
@@ -452,8 +459,8 @@ footer .list-inline > li {
 	.pharm_text {
 		position: relative;
 		margin: 0px 0px 0px 0px;
-    	padding: 40px 48px 0px 48px;
-     	height: 400px;
+    padding: 40px 48px 0px 48px;
+    height: 400px;
 	}	
 
 	.pharm-img-up {
@@ -478,8 +485,8 @@ footer .list-inline > li {
 	.commod_text {
 		position: relative;
 		margin: 0px 0px 0px 0px;
-    	padding: 40px 48px 0px 48px;
-     	height: 400px;
+    padding: 40px 48px 0px 48px;
+    height: 400px;
 	}
 
 
@@ -501,8 +508,8 @@ footer .list-inline > li {
 	.advisor_text {
 		position: relative;
 		margin: 0px 0px 0px 0px;
-    	padding: 40px 48px 0px 48px;
-     	height: 400px;
+    padding: 40px 48px 0px 48px;
+    height: 400px;
 	}
 
 
@@ -529,15 +536,19 @@ footer .list-inline > li {
 		margin: 30px 0px 40px 0px;
 	}
 
+	footer .ul_1 {
+		margin-left: 8px; 
+  }
+
 	footer .list-inline > li {
-   	margin: 0px 40px 40px 0px;
+   	margin: 0px 30px 40px 0px;
 	}
 
 }
 
 /*--sm--*/
 
-@media screen and (min-width: 768px) and (max-width: 991px){
+@media screen and (min-width: 768px) { 
 
 	div.navbar-brand > img {
 		margin: 2px 0px 0px 252px;
@@ -608,16 +619,20 @@ footer .list-inline > li {
 		margin-bottom: 40px;
 	}
 
-	footer .list-inline > li {
+	/*footer .list-inline > li {
    	margin: 0px 38px 0px 18px;
-	}
+	}*/
+
+	footer .ul_1 {
+		margin-left: -30px; 
+  }
 
 } 
 
 
 /* -md- */
 
-@media screen and (min-width: 992px)  and (max-width: 1199px){
+@media screen and (min-width: 992px) {
 
 	div.navbar-brand > img {
 		margin: 0;
@@ -672,9 +687,13 @@ footer .list-inline > li {
 		right: 0px;
 	}
 
-	footer .list-inline > li {
+	footer .ul_1 {
+		margin-left: 40px; 
+  }
+
+	/*footer .list-inline > li {
    	margin: 0px -30px 0px 50px;
-   }
+   }*/
 
 } 
 
@@ -711,6 +730,10 @@ footer .list-inline > li {
 		margin: 8px 0px 0px 44px;
 		padding: 6px 0px 6px 30px;
 	}
+
+	footer .ul_1 {
+		margin-left: 8px; 
+  }
 }
 
 	
