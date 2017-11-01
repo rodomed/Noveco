@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Roboto-Light;
+  src: url("../fonts/Roboto/Roboto-Light.ttf");
+}
+
 header.navbar-fixed-top {
 	background-color: #82cbf4;
 	padding: 5px 0;
@@ -14,10 +19,10 @@ header .navbar-brand {
 	padding: 0;
 }
 
-@font-face {
+/*@font-face {
   font-family: Roboto-Light;
   src: url("../fonts/Roboto/Roboto-Light.ttf");
-}
+}*/
 
 body {
 	color: white;
@@ -43,6 +48,10 @@ body {
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
 	background-color: inherit;
+}
+
+.navbar-toggle .icon-bar + .icon-bar {
+    margin-top: 3px;
 }
 
 header #call {
@@ -129,7 +138,7 @@ header #call {
    padding-bottom: 5px;
 }
 
-.weAre:hover .color {
+.weAre:hover .color_hover {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -384,7 +393,187 @@ footer .list-inline > li {
 	font-size: 17px;
 }
 
-/*--xs--*/
+		/*    -- xs --> 358px -- 454px  ---     */
+
+	@media screen and (min-width: 358px) and (max-width: 454px) {  
+
+		.navbar-toggle {
+			margin-right: 0;
+		}
+
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+		color: black;
+		font-size: 16px;
+		text-align: center;
+	} 
+
+	.logo-main {
+	height: 510px;
+	margin-top: 60px;
+	padding-top: 50px;
+	background-image: url(../images/logo-main-bcgr.jpg);
+	background-position: 50%;
+}
+
+	.border {
+		box-sizing: content-box;
+		margin: -18px auto 0px;
+		width: 90%;
+		height: auto;
+		border: 12px solid #82cbf4;
+		font-size: 26px;
+		padding-bottom: 20px;
+	}
+
+	.border p {
+		margin-bottom: 0;
+	}
+
+	.border img {
+		width: 280px;
+	}
+
+	/*.row {
+		position: relative;
+	} */
+
+	.weAre_text {
+		position: relative;
+		/*box-sizing: content-box;*/
+		margin: 0px 0px 0px 0px;
+    	padding: 20px 24px 0px 24px;
+     	height: 480px;
+	}
+
+ 	.weAre-img-up {
+ 		position: absolute;
+ 		background-image: url(../images/weAre-bcgr-left.jpg);
+ 		top: 0px;
+ 		left: 0px;
+ 		width: 100%;
+ 		height: 480px;
+	}
+
+	.weAre-img-low {
+		background-image: url(../images/weAre-bcgr-right.jpg);
+		background-position: 100%;
+		height: 400px;
+	} 
+
+	.vision-img-up {
+		position: absolute;
+		background-image: url(../images/vision-bcgr-right.jpg);
+		left:0px;
+		top: 0px;
+		background-position: 100%;
+		width: 100%;
+		height: 400px;
+	}
+
+	.vision_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    padding: 40px 55px 0px 55px;
+    height: 400px;
+	}
+
+	.vision-img-low {
+		background-image: url(../images/vision-bcgr-left.jpg);
+		background-position: 85%;
+		height: 400px;
+	}
+
+	.pharm_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    padding: 40px 15px 0px 15px;
+    height: 440px;
+	}	
+
+	.pharm-img-up {
+		position: absolute;
+		background-image: url(../images/pharm-bcgr-left.jpg);
+		left:0px;
+		top: 0px;
+		background-position: 100%;
+		width: 100%;
+		height: 440px;
+	}
+
+	.pharm-img-low {
+		background-image: url(../images/pharm-bcgr-right.jpg);
+		left:0px;
+		top: 0px;
+		background-position: 63%;
+		width: 100%;
+		height: 400px;
+	}
+
+	.commod_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    padding: 15px 20px 0px 25px;
+    height: 415px;
+	}
+
+
+	.commod-img-up {
+		position: absolute;
+		background-image: url(../images/commod-bcgr-right.jpg);
+		left:0px;
+		top: 0px;
+		width: 100%;
+		height: 416px;
+	}
+
+	.commod-img-low {
+		background-image: url(../images/commod-bcgr-left.jpg);
+		background-position: 97%;
+		height: 400px;
+	}
+
+	.advisor_text {
+		position: relative;
+		margin: 0px 0px 0px 0px;
+    padding: 40px 48px 0px 48px;
+    height: 400px;
+	}
+
+
+	.advisor-img-low {
+		background-image: url(../images/advisor-bcgr-right.jpg);
+		left:0px;
+		top: 0px;
+		background-position: 35%;
+		width: 100%;
+		height: 400px;
+	}
+
+	.advisor-img-up {
+		position: absolute;
+		background-image: url(../images/advisor-bcgr-left.jpg);
+		left:0px;
+		top: 0px;
+		width: 100%;
+		height: 400px;
+	} 
+
+	footer .col-xs-12:first-child {
+		text-align: center;
+		margin: 30px 0px 40px 0px;
+	}
+
+	footer .ul_1 {
+		margin-left: 8px; 
+  }
+
+	footer .list-inline > li {
+   	margin: 0px 30px 40px 0px;
+	}
+
+}
+
+/*--xs-->   455px--767px  --  */
 
 @media screen and (min-width: 455px) and (max-width: 767px) {  
 
@@ -398,9 +587,10 @@ footer .list-inline > li {
 		box-sizing: content-box;
 		margin: -18px auto 0px;
 		width: 90%;
-		height: 50%;
+		height: auto;
 		border: 12px solid #82cbf4;
 		font-size: 30px;
+		padding-bottom: 22px;
 	}
 
 	.border p {
@@ -517,7 +707,7 @@ footer .list-inline > li {
 		background-image: url(../images/advisor-bcgr-right.jpg);
 		left:0px;
 		top: 0px;
-		background-position: 20%;
+		background-position: 35%;
 		width: 100%;
 		height: 400px;
 	}
@@ -688,7 +878,7 @@ footer .list-inline > li {
 	}
 
 	footer .ul_1 {
-		margin-left: 40px; 
+		margin-left: 46px; 
   }
 
 	/*footer .list-inline > li {
@@ -731,9 +921,9 @@ footer .list-inline > li {
 		padding: 6px 0px 6px 30px;
 	}
 
-	footer .ul_1 {
+	/*footer .ul_1 {
 		margin-left: 8px; 
-  }
+  }*/
 }
 
 	
